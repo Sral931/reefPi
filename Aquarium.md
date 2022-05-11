@@ -41,3 +41,10 @@
   - placed in filter outlet (needs curve -> less flow, but safer for the filter)
 
 ## Progress
+
+### Update 11 May 2022
+
+- [Reef2Reef-Post](https://www.reef2reef.com/threads/srals-aquarium-and-reef-pi-build.911434/post-10204951)
+- installed filter media
+- installed ground heater
+- started building BIO CO2 plant and inline reactor
