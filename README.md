@@ -10,9 +10,9 @@ Current Stage:
 
 1. [Reef2Reef Discussion](#reef2reef-discussion)
 2. [Project](#project)
-    1. [Background](#background)
-    2. [Aquarium](#aquarium)
-    3. [Reef-Pi](reef-pi)
+    1. [Aquarium](#aquarium)
+    2. [Reef-Pi](reef-pi)
+    3. [Background](#background)
 3. [Source Material](#source-material)
 
 # Reef2Reef Discussion
