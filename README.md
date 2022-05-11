@@ -24,8 +24,8 @@ Links to the  [Reef2Reef.com](https://www.reef2reef.com/forums/reef-pi-discussio
     - status: waiting for input
   - [Stale Build Thread](https://www.reef2reef.com/threads/srals-aquarium-and-reef-pi-build.909622/)
     - status: "closed"
-    - Reef2Reef doesn't allow editing the first post, so I can't update the Overview
-    - I created a new thread to do the Overview Update here
+    - Reef2Reef doesn't allow editing, so I can't update the Overview
+    - created new Build thread and will update here on GitHub
 
 # Project
 
