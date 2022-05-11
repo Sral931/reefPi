@@ -1,5 +1,10 @@
 # Aquarium Page
 
+- **Current Status: slow Step-by-Step buildup**
+
+1. [Target](#target)
+2. [Progress](#progress)
+
 ## Target
 
 - Tropic fresh water Aquarium
@@ -34,3 +39,5 @@
   - water flows downwards, CO2 bubbles want to go up and stay inside until dissolved
   - placed in filter inlet (straight line -> more flow)
   - placed in filter outlet (needs curve -> less flow, but safer for the filter)
+
+## Progress
