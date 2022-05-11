@@ -18,7 +18,7 @@ Current Stage:
 # Reef2Reef Discussion
 
 Links to the  [Reef2Reef.com](https://www.reef2reef.com/forums/reef-pi-discussion.1296/) threads:
-  - Build Thread
+  - [Build Thread](https://www.reef2reef.com/threads/srals-aquarium-and-reef-pi-build.911434/)
     - status: WIP
   - [DIY EC Sensor](https://www.reef2reef.com/threads/diy-ec-sensor.911282/)
     - status: waiting for input
