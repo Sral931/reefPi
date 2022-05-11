@@ -42,9 +42,8 @@
 
 ## Progress
 
-### Update 11 May 2022
+### [Update 11 May 2022](https://www.reef2reef.com/threads/srals-aquarium-and-reef-pi-build.911434/post-10204951)
 
-- [Reef2Reef-Post](https://www.reef2reef.com/threads/srals-aquarium-and-reef-pi-build.911434/post-10204951)
-- installed filter media
-- installed ground heater
-- started building BIO CO2 plant and inline reactor
+| Installed Filter Medium |Cleaned Aquarium and Installed Ground Heater| Started DIY BIO CO2 plant + reactor|
+|:---:|:---:|:---:|
+|<img src="https://www.reef2reef.com/attachments/aquarium_filter_small-jpg.2668017/" title="Filter with medium" width="300"/>|<img src="https://www.reef2reef.com/attachments/aquarium_groundheater_small-jpg.2668018/" title="Aquarium with ground heater" width="300"/>|<img src="https://www.reef2reef.com/attachments/co2_setup_small-jpg.2668021/" title="DIY BIO CO2 plant+reactor" width="300"/>|
