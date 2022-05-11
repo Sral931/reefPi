@@ -4,9 +4,9 @@ Overview of Sral's Aquarium and Reef-Pi Build. Includes planning and progress re
 
 Current Stage:
    - **Aquarium: build-up**
-    - step-by-step
+      - step-by-step
    - **Reef-Pi : planning**
-    - first parts ordered
+      - first parts ordered
 
 1. [Reef2Reef Discussion](#reef2reef-discussion)
 2. [Project](#project)
@@ -50,10 +50,10 @@ Links to the  [Reef2Reef.com](https://www.reef2reef.com/forums/reef-pi-discussio
       - apart from Youtube videos
 
 # Source Material
-  - Reef2Reef:
+ - Reef2Reef:
     - Robsworld78 ["How To Install Reef-Pi"](https://www.reef2reef.com/threads/how-to-install-reef-pi.889815/) Thread
     - Robsworld78 ["Flow Meter Sensor for Reef-Pi"](https://www.reef2reef.com/threads/flow-meter-addon-for-reef-pi.812932/) Thread
-  - Adafruit Guides:
+ - Adafruit Guides:
     - General Guides:
       - [Reef-Pi Guides](https://learn.adafruit.com/search?q=reef-pi)
     - I2C Architecture circuits
@@ -65,6 +65,10 @@ Links to the  [Reef2Reef.com](https://www.reef2reef.com/forums/reef-pi-discussio
       - [BMP280 I2C Pressure sensor](https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout)
       - [PDA9685 I2C 16-channel PWM circuit](https://learn.adafruit.com/16-channel-pwm-servo-driver)
       - [SCD30 I2C CO2 sensor](https://learn.adafruit.com/adafruit-scd30/overview)
-  - GitHub Sources:
+ - GitHub Sources:
     - [Reef-Pi project page](https://reef-pi.github.io/)
-  - [Robsworld78 Manuals](https://www.robo-tank.ca/reef-pi_Related_User_Manuals)
+ - [Robsworld78 Manuals](https://www.robo-tank.ca/reef-pi_Related_User_Manuals)
+ - DIY EC Sensor:
+   - [DIY EC Sensor](https://publiclab.org/notes/bhickman/05-09-2016/conductivity-and-temperature-meter)
+   - [DIY EC Probe Idea](https://hackaday.io/project/7008-hacking-the-way-to-growing-food/log/24646-three-dollar-ec-ppm-meter-arduino)
+   - [CQRobot TDS sensor+probe](http://www.cqrobot.wiki/index.php/TDS_(Total_Dissolved_Solids)_Meter_Sensor_SKU:_CQRSENTDS01)
