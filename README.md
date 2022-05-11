@@ -29,6 +29,14 @@ Links to the  [Reef2Reef.com](https://www.reef2reef.com/forums/reef-pi-discussio
 
 # Project
 
+## Aquarium
+  
+  - [Aquarium Page](Aquarium.md)
+ 
+## Reef-Pi
+
+  - [Reef-Pi Page](reefPi.md)
+
 ## Background
 
   - non-native english speaker
@@ -40,14 +48,6 @@ Links to the  [Reef2Reef.com](https://www.reef2reef.com/forums/reef-pi-discussio
       - e.g. prone to forget isolation and protection on signal lines
     - no Aquarium experience
       - apart from Youtube videos
-
-## Aquarium
-  
-  - [Aquarium Page](Aquarium.md)
- 
-## Reef-Pi
-
-  - [Reef-Pi Page](reefPi.md)
 
 # Source Material
   - Reef2Reef:
