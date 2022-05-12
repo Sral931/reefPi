@@ -95,3 +95,63 @@
 ## Progress
 
 ### Planning
+
+#### Progress 12 May 2022
+
+- Power Supply:
+  - 12 VDC from 3 pin power cable
+  - Ground connection
+  - 5.0 VDC from Variable Buck converter
+  - 3.3 VDC from Variable Buck converter
+- Interface connectors:
+  - Power
+    - 4-pin MOLEX
+  - I2C
+    - shielded USB type A cable (+5.0V, SDA SCL, GND)
+    - chained through all devices
+    - driven from Py through:
+      - a BSS138 level shifter + LTC4311 I2C Extender
+      - or a ISO1540 I2C isolator (includes level shift)
+  - GPIO:
+    - 2xDB9 connectors (GND, 8 GPIO 3.3V pins)
+    - 4-8xJST PH 3-pin (+5.0V, GND, Pin)
+    - connected through a BSS138 level shifter
+    - directly interfaces:
+      - DS18B20 temperature sensors
+      - Water flow sensor
+  - PWM:
+    - 2xJST 2-pin (GND, PWM pin)
+- Modules:
+  - ADC Module 
+    - Adafruit ADS1015
+    - I2C connection
+    - power connection
+    - signal connection (4 x JST 3-pin connectors: +5.0V, GND, Analog In)
+  - PWM Module
+    - Adafruit PCA9685
+    - I2C connection
+    - power connection
+    - 16 JST 2-pin connections for PWM out
+  - LED Module
+    - JST 2-pin connections (isolated)
+    - separate 12V power for direct LED drive
+  - pH Module
+    - Robotank pH circuit
+    - I2C connection
+  - Air Quality Module
+    - SCD30 sensor board
+    - I2C connection
+  - CO2 pressure Module
+    - 2 x BMP280 sensor boards
+    - I2C connection
+  - AC Power Relais Module
+    - DB9 GPIO connection
+    - Power connection
+  - Doser Module
+    - DB9 GPIO connection
+    - power connection
+    - 2xPWM connection
+    - switch to determine which PWM input is used for each doser
+  - EC module
+    - power and analog connection to ADC
+    - internal isolation, both signal and power
