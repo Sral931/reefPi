@@ -5,7 +5,7 @@
 
 1. [Target](#target)
 2. [Planning](#planning)
-    1. [12 May 2022](#12may2022)
+    1. [Progress 12 May 2022](#progress-12-may-2022)
 
 ## Target
 
@@ -15,7 +15,6 @@
 
 - camera(s)
   - quick view of aquarium
-  - could be used to read the digits of a CO2 sensor like here and here
 - I2C or ADC
   - pH-Measurement
   - Temp-Measurement
@@ -38,26 +37,18 @@
 - pH Sensor circuit from [robo-tank](https://www.robo-tank.ca/Arduino-Devices/Robo-Tank-Isolated-pH-Circuit-Arduino-PI)
   - 0.01 accuracy
 - 50$ no-name probe from local aquarium store
-  - accuracy and longevity ?
-- I2C and power isolation circuit (pre-made)
-  - DFRobot circuit, 150mA max curret draw
-- I2C connection, 5V
+  - accuracy and longevity to be determined
 
 ### Temp-Sensor
 
 - two standard DS18B20 sensors
-- supposedly prone to failue
-  - 2 for backup purposes
-- single pin protocol
-- 3.3 / 5V power
-- Pi GPIO pin needs 3.3V
 
 ### Conductivity Measurement
 
 - Cheap first test: [CQRobot TDS circuit](www.cqrobot.wiki/index.php/TDS_(Total_Dissolved_Solids)_Meter_Sensor_SKU:_CQRSENTDS01)
   - cheap (14$)
   - longevity and accuracy for fresh water ?
-  - needs ADC (and Isolation ?)
+  - needs ADC (and Isolation?)
 - [DIY build](DIY_EC_Sensor.md)
 
 ### Air Quality
