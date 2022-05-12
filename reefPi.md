@@ -4,9 +4,8 @@
   - first parts ordered
 
 1. [Target](#target)
-2. [Progress](#progress)
-    1. [Planning](#planning)
-        1. [12 May 2022](#12may2022)
+2. [Planning](#planning)
+    1. [12 May 2022](#12may2022)
 
 ## Target
 
