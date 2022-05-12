@@ -6,6 +6,7 @@
 1. [Target](#target)
 2. [Progress](#progress)
     1. [Planning](#planning)
+        1. [12 May 2022](#12may2022)
 
 ## Target
 
@@ -92,11 +93,9 @@
     - CO2 pressure (barometric sensors inside CO2 system and ambient)
     - pH value
 
-## Progress
+## Planning
 
-### Planning
-
-#### Progress 12 May 2022
+### [Progress 12 May 2022](https://www.reef2reef.com/threads/srals-aquarium-and-reef-pi-build.911434/post-10209141)
 
 - Power Supply:
   - 12 VDC from 3 pin power cable
