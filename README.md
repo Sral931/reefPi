@@ -32,7 +32,6 @@ Links to the  [Reef2Reef.com](https://www.reef2reef.com/forums/reef-pi-discussio
 ## Aquarium
   
   - [Aquarium Page](Aquarium.md)
-  - 
  
 ## Reef-Pi
 
