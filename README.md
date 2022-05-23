@@ -27,7 +27,7 @@ Links to the  [Reef2Reef.com](https://www.reef2reef.com/forums/reef-pi-discussio
   - [Build Thread](https://www.reef2reef.com/threads/srals-aquarium-and-reef-pi-build.911434/)
     - status: WIP
   - [DIY EC Sensor](https://www.reef2reef.com/threads/diy-ec-sensor.911282/)
-    - status: waiting for input + ordering parts
+    - status: waiting for input + parts
   - [Stale Build Thread](https://www.reef2reef.com/threads/srals-aquarium-and-reef-pi-build.909622/)
     - status: "closed"
     - Reef2Reef doesn't allow editing, so I can't update the Overview
