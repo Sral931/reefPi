@@ -6,6 +6,8 @@
 1. [Target](#target)
 2. [Planning](#planning)
     1. [Progress 12 May 2022](#progress-12-may-2022)
+3. [Progress](#progress)
+4. [Sources](#sources)
 
 ## Target
 
@@ -42,6 +44,7 @@
 ### Temp-Sensor
 
 - two standard DS18B20 sensors
+  - prone to brakdowns ? -> backup
 
 ### Conductivity Measurement
 
@@ -49,12 +52,12 @@
   - cheap (14$)
   - longevity and accuracy for fresh water ?
   - needs ADC (and Isolation?)
-- [DIY build](DIY_EC_Sensor.md)
+- [DIY build](diyec.md)
 
 ### Air Quality
 
 - read display of a third party device with a camera
-  - complicated dropped in favor of second method
+  - complicated, dropped in favor of second method
 - I2C sensor:
   - [Adafruit Guide](https://learn.adafruit.com/adafruit-scd30/overview)
   - 3.3 / 5V supply
@@ -62,26 +65,27 @@
 
 ### LED-Lights
 
-- no LED decided on yet:
-  - fluval Bluetooth LED
-    - nice regulation app with weather effects
-    - expensive package, each LED-module has it's own Bluetooth connection and chip
-    - if you want two for more ligth it's unnecessarily expensive
-  - self build Sera Sunshine system, regulated with Reef-Pi
-    - PWM circuit for regulation
-    - fast enough for weather effects ?
-    - cheaper, because just no additional regulation chip needed (apart from Pi Zero)
+- [Aqua Grow Solid LS 870](https://aqua-grow.de/lampen/solid-ls/68/solid-ls-870?c=19)
+  - power: 92W
+  - Lumen: ~10,000 lm
+  - color: ~6300K
+  - supply: DC 24V @LED
+- DIY PWM Dimmer
+  - optocoupled PWM signal from PDA9685
+  - Pulse width modulated output through 6 n-channel MOSFETs  
 
 ### Dosing
 
 - afraid of dosing failures with PDA9685
 - will chain Zero's PWM pin to all doser pumps
-- run them monodirectionally with a ULN2803A transistor array and GPIO pins
+- run them monodirectionally with a ULN2803A transistor array (or similar) and GPIO pins
 - PID regulation of CO2
   - PID in reef-Pi ?
   - regulation by:
-    - CO2 pressure (barometric sensors inside CO2 system and ambient)
     - pH value
+    - CO2 pressure (barometric sensors inside CO2 system and ambient ?)
+    - ambient temperature (?)
+    - manually determined max as safety
 
 ## Planning
 
@@ -144,3 +148,30 @@
   - EC module
     - power and analog connection to ADC
     - internal isolation, both signal and power
+
+## Sources
+- [Reef-Pi project page](https://reef-pi.github.io/)
+- Reef-Pi Guides:
+  - General Guides:
+    - Robsworld78 ["How To Install Reef-Pi"](https://www.reef2reef.com/threads/how-to-install-reef-pi.889815/) Thread
+    - [Robsworld78 Reef-Pi Manual](https://www.robo-tank.ca/reef-pi_Related_User_Manuals)
+  - Reef-Pi Circuits:
+    - [Reef-Pi Guides on Adafruit](https://learn.adafruit.com/search?q=reef-pi)
+    - Robsworld78 ["Flow Meter Addon for Reef-Pi"](https://www.reef2reef.com/threads/flow-meter-addon-for-reef-pi.812932/) Thread
+- General Circuits:      
+  - I2C Architecture circuits
+    - [LTC4311 I2C Extender](https://learn.adafruit.com/adafruit-ltc4311-i2c-extender-active-terminator)
+    - [BSS138 level shifter (shop page)](https://www.adafruit.com/product/757)
+    - [DFRobot I2C Signal+Power Isolator](https://wiki.dfrobot.com/Gravity__Digital_Signal_Isolator_SKU__DFR0565)
+  - I2C Sensor/Actuator Circuits:
+    - [ADS1015/1115 I2C 4-channel ADC](https://learn.adafruit.com/adafruit-4-channel-adc-breakouts)
+    - [BMP280 I2C Pressure sensor](https://learn.adafruit.com/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout)
+    - [PDA9685 I2C 16-channel PWM circuit](https://learn.adafruit.com/16-channel-pwm-servo-driver)
+    - [SCD30 I2C CO2 sensor](https://learn.adafruit.com/adafruit-scd30/overview)
+  - Real Time Clock (RTC)
+    - [DS1307 I2C RTC module](https://learn.adafruit.com/adding-a-real-time-clock-to-raspberry-pi)
+  - Optocoupling PWM signals
+   - [Optocoupling PWM signals](https://www.analogictips.com/selecting-optocoupler-isolate-pwm/)
+   - [Optocoupling Push-Pull circuit](https://electronics.stackexchange.com/questions/234520/opto-coupled-pwm-output)
+- Atlas Instruments Guides:
+   - [Changing I2C communication mode](https://www.instructables.com/UART-AND-I2C-MODE-SWITCHING-FOR-ATLAS-SCIENTIFIC-E/)
