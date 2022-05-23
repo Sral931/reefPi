@@ -19,7 +19,8 @@
 
 ## Sources
 
-- [DIY EC Sensor](https://publiclab.org/notes/bhickman/05-09-2016/conductivity-and-temperature-meter)
+- [DIY EC Sensor resistance bridge](https://publiclab.org/notes/bhickman/05-09-2016/conductivity-and-temperature-meter)
 - [DIY EC Probe Idea](https://hackaday.io/project/7008-hacking-the-way-to-growing-food/log/24646-three-dollar-ec-ppm-meter-arduino)
+- [DIY EC Sensor amplifier bridge + reference solution](http://www.octiva.net/projects/ppm/)
 - [CQRobot TDS sensor+probe](http://www.cqrobot.wiki/index.php/TDS_(Total_Dissolved_Solids)_Meter_Sensor_SKU:_CQRSENTDS01)
 - [Circuit Info](https://www.analog.com/media/en/reference-design-documentation/reference-designs/CN0428.pdf)
