@@ -41,7 +41,7 @@ Links to the  [Reef2Reef.com](https://www.reef2reef.com/forums/reef-pi-discussio
 
 ## DIY CO2 Plant
 
-  - [DIY CO2 Plant Page](DIYCO2.md)
+  - [DIY CO2 Plant Page](diyco2.md)
  
 ## Reef-Pi
 
@@ -49,7 +49,7 @@ Links to the  [Reef2Reef.com](https://www.reef2reef.com/forums/reef-pi-discussio
 
 ## DIY EC Sensor
 
-  - [DIY EC Sensor Page](DIYEC.md)
+  - [DIY EC Sensor Page](diyec.md)
 
 ## Background
 
