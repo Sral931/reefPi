@@ -170,8 +170,5 @@
     - [SCD30 I2C CO2 sensor](https://learn.adafruit.com/adafruit-scd30/overview)
   - Real Time Clock (RTC)
     - [DS1307 I2C RTC module](https://learn.adafruit.com/adding-a-real-time-clock-to-raspberry-pi)
-  - Optocoupling PWM signals
-   - [Optocoupling PWM signals](https://www.analogictips.com/selecting-optocoupler-isolate-pwm/)
-   - [Optocoupling Push-Pull circuit](https://electronics.stackexchange.com/questions/234520/opto-coupled-pwm-output)
 - Atlas Instruments Guides:
    - [Changing I2C communication mode](https://www.instructables.com/UART-AND-I2C-MODE-SWITCHING-FOR-ATLAS-SCIENTIFIC-E/)
