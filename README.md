@@ -26,14 +26,16 @@ Current Stage:
 # Reef2Reef Discussion
 
 Links to the  [Reef2Reef.com](https://www.reef2reef.com/forums/reef-pi-discussion.1296/) threads:
-  - [Build Thread](https://www.reef2reef.com/threads/srals-aquarium-and-reef-pi-build.911434/)
-    - status: WIP
-  - [DIY EC Sensor](https://www.reef2reef.com/threads/diy-ec-sensor.911282/)
-    - status: waiting for input + parts
-  - [Stale Build Thread](https://www.reef2reef.com/threads/srals-aquarium-and-reef-pi-build.909622/)
-    - status: "closed"
-    - Reef2Reef doesn't allow editing, so I can't update the Overview
-    - created new Build thread and will update here on GitHub
+   - [Build Thread](https://www.reef2reef.com/threads/srals-aquarium-and-reef-pi-build.911434/)
+      - status: WIP
+   - [DIY EC Sensor](https://www.reef2reef.com/threads/diy-ec-sensor.911282/)
+      - status: building test-circuit
+   - [DIY PWM Dimmer](https://www.reef2reef.com/threads/diy-led-controler-driver.912643/)
+      - status: waiting for parts
+   - [Stale Build Thread](https://www.reef2reef.com/threads/srals-aquarium-and-reef-pi-build.909622/)
+      - status: "closed"
+      - Reef2Reef doesn't allow editing, so I can't update the Overview
+      - created new Build thread and will update here on GitHub
 
 # Project
 
