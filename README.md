@@ -5,21 +5,23 @@ Overview of Sral's Aquarium and Reef-Pi Build. Includes planning and progress re
 Current Stage:
    - **Aquarium: build-up**
       - next: pipes and ground
-   - **DIY CO2 Plant: waiting for parts**
-      - next: mechanical reinforcement on seals
-   - **Reef-Pi : waiting for parts**
-      - next: set up Main Pi unit
-   - **DIY EC Sensor: waiting for parts**
+   - **DIY CO2 Plant: testing**
+      - next: test CO2 production and dissolution in reactor
+   - **Reef-Pi : install+test main Pi unit**
+      - next: burn image to SD card
+   - **DIY EC Sensor: testing**
+      - next: build test circuit
+   - **DIY PWM Dimmer: waiting for parts**
       - next: build test circuit
 
-1. [Reef2Reef Discussion](#reef2reef-discussion)
-2. [Project](#project)
+1. [Project](#project)
     1. [Aquarium](#aquarium)
     2. [DIY CO2 plant](#diy-co2-plant)
     3. [Reef-Pi](#reef-pi)
     4. [DIY EC Sensor](#diy-ec-sensor)
-    5. [Background](#background)
-3. [Source Material](#source-material)
+    5. [DIY PWM Dimmer](#diy-pwm-dimmer)
+    6. [Background](#background)
+2. [Source Material](#source-material)
 
 # Reef2Reef Discussion
 
@@ -50,6 +52,10 @@ Links to the  [Reef2Reef.com](https://www.reef2reef.com/forums/reef-pi-discussio
 ## DIY EC Sensor
 
   - [DIY EC Sensor Page](diyec.md)
+
+## DIY PWM Dimmer
+
+  - [DIY PWM Dimmer Page](diyPWMDimmer.md)
 
 ## Background
 
