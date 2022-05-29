@@ -70,7 +70,7 @@
   - Lumen: ~10,000 lm
   - color: ~6300K
   - supply: DC 24V @LED
-- DIY PWM Dimmer
+- [DIY PWM Dimmer](diyPWMDimmer.md)
   - optocoupled PWM signal from PDA9685
   - Pulse width modulated output through 6 n-channel MOSFETs  
 
