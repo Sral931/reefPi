@@ -24,7 +24,8 @@
 - [n-channel MOSFET](https://assets.nexperia.com/documents/data-sheet/PSMN022-30PL.pdf)
 - [npn transistor PN2222](https://rocelec.widen.net/view/pdf/xjvpikgnni/ONSM-S-A0003589513-1.pdf?t.download=true&u=5oefqw)
 - [pnp transistor 2N3906](https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf)
-- Alternatives: 
+- Alternatives:
+  - [Optocoupler Gate Driver IC](https://www.onsemi.com/pdf/datasheet/fod3182-d.pdf)
   - [npn transistor 2N3904](https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf)
   - [Adafruit n-channel MOSFET](https://cdn-shop.adafruit.com/datasheets/irlb8721pbf.pdf)
 
