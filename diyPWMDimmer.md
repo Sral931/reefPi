@@ -25,3 +25,5 @@
 - Optocoupling PWM signals
   - [Optocoupling PWM signals](https://www.analogictips.com/selecting-optocoupler-isolate-pwm/)
   - [Optocoupling Push-Pull circuit](https://electronics.stackexchange.com/questions/234520/opto-coupled-pwm-output)
+- Push-Pull Amplifier
+  - [Push-Pull Amplifier Basics](https://www.youtube.com/watch?v=e_SE4KQjYR8)
