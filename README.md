@@ -11,7 +11,7 @@ Project Parts and Status:
       - next: burn image to SD card
    - **[DIY EC Sensor](diyec.md): testing**
       - next: build test circuit
-   - **[DIY PWM Dimmer](diyPWMDimmer.md): waiting for parts**
+   - **[DIY PWM Dimmer](diyPWMDimmer.md): testing**
       - next: build test circuit
 
 1. [Reef2Reef Discussions](#reef2reef-discussion)
