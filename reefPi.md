@@ -39,7 +39,7 @@
 - 12V 3.0A 36W power supply
   - [source](https://www.robo-tank.ca/Bargain-Bin/12V-DC-3.2A-36W-Switching-Power-Supply)
 - 2x 5V 3.0A DC/DC step down converter (max 2.0A continuous without heatsink)
-  - [datasheet)(https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/DFR0379_Web.pdf)
+  - [datasheet](https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/DFR0379_Web.pdf)
 
 ### pH Sensor
 
