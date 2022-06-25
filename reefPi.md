@@ -34,10 +34,18 @@
     - sensor recalibrations
     - etc.
 
+### power supply
+
+- 12V 3.0A 36W power supply
+  - [source](https://www.robo-tank.ca/Bargain-Bin/12V-DC-3.2A-36W-Switching-Power-Supply)
+- 2x 5V 3.0A DC/DC step down converter (max 2.0A continuous without heatsink)
+  - [datasheet)(https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/DFR0379_Web.pdf)
+
 ### pH Sensor
 
 - pH Sensor circuit from [robo-tank](https://www.robo-tank.ca/Arduino-Devices/Robo-Tank-Isolated-pH-Circuit-Arduino-PI)
   - 0.01 accuracy
+  - power consumption unknown (10mA max ?)
 - 50$ no-name probe from local aquarium store
   - accuracy and longevity to be determined
 
@@ -45,23 +53,35 @@
 
 - two standard DS18B20 sensors
   - prone to brakdowns ? -> backup
+  - low power consumption (~1mA)
 
 ### Conductivity Measurement
 
-- Cheap first test: [CQRobot TDS circuit](www.cqrobot.wiki/index.php/TDS_(Total_Dissolved_Solids)_Meter_Sensor_SKU:_CQRSENTDS01)
+- Cheap first test: [CQRobot TDS circuit](http://www.cqrobot.wiki/index.php/TDS_(Total_Dissolved_Solids)_Meter_Sensor_SKU:_CQRSENTDS01)
   - cheap (14$)
   - longevity and accuracy for fresh water ?
   - needs ADC (and Isolation?)
+  - power consumption 3-6mA
 - [DIY build](diyec.md)
+  -  power consumption ?
 
 ### Air Quality
 
 - read display of a third party device with a camera
   - complicated, dropped in favor of second method
-- I2C sensor:
+- I2C sensor: 
+  - [SCD30 datasheet](https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/CD_DS_SCD30_Datasheet_D1.pdf)
   - [Adafruit Guide](https://learn.adafruit.com/adafruit-scd30/overview)
   - 3.3 / 5V supply
+  - power consumption 19mA @ 1 measurement per 2s
   - CO2, temperature + humidity
+
+### Air and CO2 pressure
+
+- read air and CO2 pressure and temperature
+- uses 2xBMP280 sensors
+- [datasheet](https://cdn-shop.adafruit.com/datasheets/BST-BMP280-DS001-11.pdf)
+- low power consumption (<1mA)
 
 ### LED-Lights
 
@@ -71,8 +91,12 @@
   - color: ~6300K
   - supply: DC 24V @LED
 - [DIY PWM Dimmer](diyPWMDimmer.md)
-  - optocoupled PWM signal from PDA9685
-  - Pulse width modulated output through 6 n-channel MOSFETs  
+  - PWM signal from PDA9685
+    - [datasheet](https://cdn-shop.adafruit.com/datasheets/PCA9685.pdf)
+  - optocoupled gate driver FOD3182
+    - [datasheet](https://www.onsemi.com/pdf/datasheet/fod3182-d.pdf)
+  - Pulse width modulated output through 6 n-channel MOSFETs
+  - power consumption ~6 x 10mA
 
 ### Dosing
 
