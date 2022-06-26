@@ -96,6 +96,7 @@
 - I2C sensor: 
   - [SCD30 datasheet](https://media.digikey.com/pdf/Data%20Sheets/Sensirion%20PDFs/CD_DS_SCD30_Datasheet_D1.pdf)
   - [Adafruit Guide](https://learn.adafruit.com/adafruit-scd30/overview)
+  - [Interface description](https://sensirion.com/media/documents/D7CEEF4A/6165372F/Sensirion_CO2_Sensors_SCD30_Interface_Description.pdf)
   - 3.3 / 5V supply
   - power consumption 19mA @ 1 measurement per 2s
   - CO2, temperature + humidity
