@@ -100,7 +100,7 @@
   - 3.3 / 5V supply
   - power consumption 19mA @ 1 measurement per 2s
   - CO2, temperature + humidity
-- I2C 7-bit address 0x68 / #104
+- I2C 7-bit address 0x61 / #97
 
 ### Air and CO2 pressure
 
