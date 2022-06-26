@@ -36,10 +36,19 @@
 
 ### power supply
 
+- [detailed power draw list](https://www.reef2reef.com/threads/srals-aquarium-and-reef-pi-build.911434/post-10340856)
 - 12V 3.0A 36W power supply
   - [source](https://www.robo-tank.ca/Bargain-Bin/12V-DC-3.2A-36W-Switching-Power-Supply)
+  - power draw:
+    - 5V converters: 235-680 mA @ 12V (85% efficiency)
+    - peristaltic dosers: 0-1200 mA @ 12V (200-300mA per pump)
+    - Total: 235-1880 mA @ 12V
+    - Draw on AC: 3.32-26.55 W @ 240 VAC (85% efficiency)
 - 2x 5V 3.0A DC/DC step down converter (max 2.0A continuous without heatsink)
   - [datasheet](https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/DFR0379_Web.pdf)
+  - power draw:
+    - Main Pi unit: 450-550 mA @ 5V
+    - AC+LED unit: 30-830 mA @ 5V
 
 ### pH Sensor
 
