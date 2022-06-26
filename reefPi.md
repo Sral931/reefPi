@@ -15,6 +15,7 @@
 
 ### Capabilities
 
+- Real time clock (RTC)
 - camera(s)
   - quick view of aquarium
 - I2C or ADC
@@ -50,6 +51,11 @@
     - Main Pi unit: 450-550 mA @ 5V
     - AC+LED unit: 30-830 mA @ 5V
 
+### RTC
+- Adafruit PCF8523
+- back up time keeping
+- I2C 7-bit address 0x68 / #104 (extrapolated from pH)
+
 ### pH Sensor
 
 - pH Sensor circuit from [robo-tank](https://www.robo-tank.ca/Arduino-Devices/Robo-Tank-Isolated-pH-Circuit-Arduino-PI)
@@ -57,6 +63,15 @@
   - power consumption unknown (10mA max ?)
 - 50$ no-name probe from local aquarium store
   - accuracy and longevity to be determined
+- I2C 7-bit address 0x62 / #98
+
+### ADC module
+- Adafruit ADS1115
+- I2C 7-bit address:
+  - 0x48 / #72 (1001000) ADR -> GND
+  - 0x49 / #73 (1001001) ADR -> VDD
+  - 0x4A / #74 (1001010) ADR -> SDA
+  - 0x4B / #75 (1001011) ADR -> SCL
 
 ### Temp-Sensor
 
@@ -84,12 +99,16 @@
   - 3.3 / 5V supply
   - power consumption 19mA @ 1 measurement per 2s
   - CO2, temperature + humidity
+- I2C 7-bit address 0x68 / #104
 
 ### Air and CO2 pressure
 
 - read air and CO2 pressure and temperature
 - uses 2xBMP280 sensors
-- [datasheet](https://cdn-shop.adafruit.com/datasheets/BST-BMP280-DS001-11.pdf)
+- [datasheet](https://media.digikey.com/pdf/Data%20Sheets/Pimoroni%20PDFs/PIM411_Web.pdf)
+- I2C 7-bit addresses:
+  - 0x76 / #118
+  - 0x77 / #119
 - low power consumption (<1mA)
 
 ### LED-Lights
@@ -102,6 +121,17 @@
 - [DIY PWM Dimmer](diyPWMDimmer.md)
   - PWM signal from PDA9685
     - [datasheet](https://cdn-shop.adafruit.com/datasheets/PCA9685.pdf)
+    - [guide](https://learn.adafruit.com/16-channel-pwm-servo-driver?view=all)
+    - I2C 7-bit addresses:
+      - #64 ... #95
+      - 0x40 / #64 (no jumpers)
+      - 0x41 / #65 (A0 bridged)
+      - 0x42 / #66 (A1 bridged)
+      - 0x43 / #67 (A0+A1 bridged)
+      - 0x44 / #68 (A2 bridged)
+      - 0x45 / #69 (A2+A0 bridged)
+      - 0x46 / #70 (A2+A1 bridged)
+      - ...
   - optocoupled gate driver FOD3182
     - [datasheet](https://www.onsemi.com/pdf/datasheet/fod3182-d.pdf)
   - Pulse width modulated output through 6 n-channel MOSFETs
