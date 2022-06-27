@@ -53,8 +53,9 @@
 
 ### RTC
 - Adafruit PCF8523
+- [Adafruit Guide](https://learn.adafruit.com/adafruit-pcf8523-real-time-clock/)
 - back up time keeping
-- I2C 7-bit address 0x68 / #104 (extrapolated from pH)
+- I2C 7-bit address 0x68 / #104
 
 ### pH Sensor
 
