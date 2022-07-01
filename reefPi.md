@@ -5,9 +5,23 @@
 
 1. [Target](#target)
 2. [Planning](#planning)
+    1. [Interfaces](#interfaces)
+    2. [Power Supply](#power-supply)
+    3. [RTC](#rtc)
+    4. [pH Sensor](#ph-sensor)
+    5. [ADC Module](#adc-module)
+    6. [Temp-Sensor](#temp-sensor)
+    7. [Conductivity Measurement](#conductivity-measurement)
+    8. [Air Quality](#air-quality)
+    9. [Air and CO2 pressure](#air-and-co2-pressure)
+    10. [LED-Lights](#led-lights)
+    11. [Dosing](#dosing)
+3. [Circuits](#circuits)
+    1. [Power Supply](#power-supply-circuit)
+5. [Progress](#progress)
     1. [Progress 12 May 2022](#progress-12-may-2022)
-3. [Progress](#progress)
-4. [Sources](#sources)
+    2. []
+6. [Sources](#sources)
 
 ## Target
 
@@ -166,7 +180,13 @@
     - ambient temperature (?)
     - manually determined max as safety
 
-## Planning
+## Circuits
+
+### Power Supply Circuit
+
+
+
+## Progress
 
 ### [Progress 12 May 2022](https://www.reef2reef.com/threads/srals-aquarium-and-reef-pi-build.911434/post-10209141)
 
