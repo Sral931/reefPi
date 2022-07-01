@@ -17,23 +17,37 @@
 
 - Real time clock (RTC)
 - camera(s)
-  - quick view of aquarium
-- I2C or ADC
-  - pH-Measurement
-  - Temp-Measurement
-  - Conductivity Measurement
-    - perfectionism, I like my data ^^
-  - Air quality
-- PWM
-  - LED-Light
+- pH-Measurement
+- Temp-Measurement
+- Conductivity Measurement
+- Air quality
+- PWM-out
+  - LED-Lighting
   - sugar-solution dosing
   - fertilizer dosing
-- non-essential
-  - AC equipment
-  - value logging
-    - e.g. values from manual water tests
-    - sensor recalibrations
-    - etc.
+- switching AC equipment
+- value logging
+
+## Planning
+
+### Interfaces
+  - Power
+    - 4-pin MOLEX (12VDC + 5VDC)
+  - I2C
+    - shielded USB type A cable (+5.0V, SDA SCL, GND)
+    - ISO1540 I2C isolator (includes level shift from 3.3V to 5V)
+    - LTC4311 I2C Extender (boosts I2C for long cables)
+  - GPIO:
+    - DB9 connectors (GND, 8 GPIO 5.0V pins)
+      - driven by ULN2803
+    - 4-8xJST PH 3-pin (+5.0V, GND, Pin)
+      - connected through a BSS138 level shifter
+    - directly interfaces:
+      - DS18B20 temperature sensors
+      - Water flow sensor
+  - PWM:
+    - 2xJST 2-pin (GND, PWM pin)
+    - more from PWM Lighting Module if needed
 
 ### power supply
 
