@@ -3,6 +3,8 @@
 - **Current Status: Planning**
   - first parts ordered
 
+## Table of contents
+
 1. [Target](#target)
 2. [Planning](#planning)
     1. [Interfaces](#interfaces)
@@ -42,6 +44,8 @@
 - switching AC equipment
 - value logging
 
+[back to TOC](#table-of-contents)
+
 ## Planning
 
 ### Interfaces
@@ -63,6 +67,8 @@
     - 2xJST 2-pin (GND, PWM pin)
     - more from PWM Lighting Module if needed
 
+[back to TOC](#table-of-contents)
+
 ### power supply
 
 - [detailed power draw list](https://www.reef2reef.com/threads/srals-aquarium-and-reef-pi-build.911434/post-10340856)
@@ -79,11 +85,15 @@
     - Main Pi unit: 450-550 mA @ 5V
     - AC+LED unit: 30-830 mA @ 5V
 
+[back to TOC](#table-of-contents)
+
 ### RTC
 - Adafruit PCF8523
 - [Adafruit Guide](https://learn.adafruit.com/adafruit-pcf8523-real-time-clock/)
 - back up time keeping
 - I2C 7-bit address 0x68 / #104
+
+[back to TOC](#table-of-contents)
 
 ### pH Sensor
 
@@ -94,6 +104,8 @@
   - accuracy and longevity to be determined
 - I2C 7-bit address 0x62 / #98
 
+[back to TOC](#table-of-contents)
+
 ### ADC module
 - Adafruit ADS1115
 - I2C 7-bit address:
@@ -102,11 +114,15 @@
   - 0x4A / #74 (1001010) ADR -> SDA
   - 0x4B / #75 (1001011) ADR -> SCL
 
+[back to TOC](#table-of-contents)
+
 ### Temp-Sensor
 
 - two standard DS18B20 sensors
   - prone to brakdowns ? -> backup
   - low power consumption (~1mA)
+
+[back to TOC](#table-of-contents)
 
 ### Conductivity Measurement
 
@@ -117,6 +133,8 @@
   - power consumption 3-6mA
 - [DIY build](diyec.md)
   -  power consumption ?
+
+[back to TOC](#table-of-contents)
 
 ### Air Quality
 
@@ -131,6 +149,8 @@
   - CO2, temperature + humidity
 - I2C 7-bit address 0x61 / #97
 
+[back to TOC](#table-of-contents)
+
 ### Air and CO2 pressure
 
 - read air and CO2 pressure and temperature
@@ -140,6 +160,8 @@
   - 0x76 / #118
   - 0x77 / #119
 - low power consumption (<1mA)
+
+[back to TOC](#table-of-contents)
 
 ### LED-Lights
 
@@ -167,6 +189,8 @@
   - Pulse width modulated output through 6 n-channel MOSFETs
   - power consumption ~6 x 10mA
 
+[back to TOC](#table-of-contents)
+
 ### Dosing
 
 - afraid of dosing failures with PDA9685
@@ -180,11 +204,24 @@
     - ambient temperature (?)
     - manually determined max as safety
 
+[back to TOC](#table-of-contents)
+
 ## Circuits
 
 ### Power Supply Circuit
 
+<img src="/circuits/PowerUnit_schem.png" title="Filter with medium" width="1200"/>
+- only one example Relay is included
 
+[back to TOC](#table-of-contents)
+
+### Main Pi Circuit
+
+<img src="/circuits/PiUnit_schem.png" title="Filter with medium" width="1200"/>
+- BSS138 Level shifter has to be tested with the DS18B20 and flow meter
+- 
+
+[back to TOC](#table-of-contents)
 
 ## Progress
 
