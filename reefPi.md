@@ -1,7 +1,7 @@
 # Reef-Pi Page
 
-- **Current Status: Planning**
-  - first parts ordered
+- **Current Status: Building PI unit**
+  - testing DS18B20 compatibility to BSS138 level shifter
 
 ## Table of contents
 
