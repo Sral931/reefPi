@@ -4,11 +4,11 @@ Overview of Sral's Aquarium and Reef-Pi Build. Includes planning and progress re
 
 Project Parts and Status:
    - **[Aquarium](Aquarium.md): build-up**
-      - next: pipes and ground
+      - next: CO2 + starting phase
    - **[DIY CO2 Plant](diyco2.md): testing**
       - next: test CO2 production and dissolution in reactor
-   - **[Reef-Pi](reefPi.md): install+test main Pi unit**
-      - next: burn image to SD card
+   - **[Reef-Pi](reefPi.md): Build main PI unit**
+      - next: building PI unit and testing parts
    - **[DIY EC Sensor](diyec.md): testing**
       - next: build test circuit
    - **[DIY PWM Dimmer](diyPWMDimmer.md): testing**
