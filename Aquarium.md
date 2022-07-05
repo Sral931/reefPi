@@ -1,6 +1,6 @@
 # Aquarium Page
 
-- **Current Status: slow Step-by-Step buildup**
+- **Current Status: building+testing CO2 -> starting phase**
 
 1. [Target](#target)
 2. [Progress](#progress)
