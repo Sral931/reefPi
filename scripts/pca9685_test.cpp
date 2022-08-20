@@ -17,12 +17,12 @@ int main(int argc, char *argv[])
 {
 	// init
 	char *filename = (char*)"/dev/i2c-1";  // Define the i2c file path
-    probeI2Cfile = open(filename, O_RDWR);  // open file for read and right
+	probeI2Cfile = open(filename, O_RDWR);  // open file for read and right
 	
 	// output header
 	std::cout <<"PCA9685 Test Script" << std::endl;
 	double value = 0;
-    if (argc > 1) i2cAddress = atoi(argv[1]);
+	if (argc > 1) i2cAddress = atoi(argv[1]);
 
 	std::cout <<"Using i2cAddress        " << i2cAddress << std::endl;
 	std::cout <<"------------------------" << std::endl;
