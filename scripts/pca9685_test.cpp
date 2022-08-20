@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 	// send command
 	command[0] = 0x52;
 	write(probeI2Cfile, command, 1);
-	sleep(0.05)
+	sleep(0.05);
 	
 	// read
 	short length = 1;  // Number of bytes to read
@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
 	// send command
 	command[0] = 0x52;
 	write(probeI2Cfile, command, 1);
-	sleep(0.05)
+	sleep(0.05);
 	
 	// read
 	short length = 1;  // Number of bytes to read
