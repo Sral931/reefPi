@@ -73,4 +73,4 @@ int main(int argc, char *argv[])
 	{
 		std::cout <<"preScaler = " << std::to_string(inData[0]) << std::endl;
 	}
-  
+}
