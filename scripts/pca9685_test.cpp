@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 	}
 	else 
 	{
-		std::cout <<"preScaler = " << std::to_string(inData[0]) << std::endl;           
+		std::cout <<"preScaler = " << std::to_string(inData[0]) << std::endl;
 	}
 	
 	i2cAddress += 1;
@@ -71,7 +71,6 @@ int main(int argc, char *argv[])
 	}
 	else 
 	{
-		value = std::to_string(inData[0]);
-		std::cout <<"preScaler = " << value << std::endl;           
+		std::cout <<"preScaler = " << std::to_string(inData[0]) << std::endl;
 	}
   
