@@ -45,8 +45,7 @@ int main(int argc, char *argv[])
 	}
 	else 
 	{
-		value = std::to_string(inData[0]);
-		std::cout <<"preScaler = " << value << std::endl;           
+		std::cout <<"preScaler = " << std::to_string(inData[0]) << std::endl;           
 	}
 	
 	i2cAddress += 1;
@@ -66,7 +65,7 @@ int main(int argc, char *argv[])
 	sleep(0.05);
 	
 	// read
-	short length = 1;  // Number of bytes to read
+	length = 1;  // Number of bytes to read
 	if (read(probeI2Cfile, inData, 1) != length) {
 		std::cout << "Failed to read from circuit." << std::endl;
 	}
