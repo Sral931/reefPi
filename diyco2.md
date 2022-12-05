@@ -1,7 +1,6 @@
 # DIY CO2 Plant Page
 
-- **Current Status: waiting for parts**
-- next: mechanical reinforcement of seals
+- **Current Status: leak search and reinforcement**
 
 1. [Target](#target)
 2. [Progress](#progress)
