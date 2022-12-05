@@ -6,11 +6,10 @@ Project Parts and Status:
    - **[Aquarium](Aquarium.md): build-up**
       - next: CO2 + starting phase
    - **[DIY CO2 Plant](diyco2.md): testing**
-      - next: test CO2 production and dissolution in reactor
-   - **[Reef-Pi](reefPi.md): Build main PI unit**
-      - next: building PI unit and testing parts
-   - **[DIY EC Sensor](diyec.md): testing**
-      - next: build test circuit
+      - next: seal leaks
+   - **[Reef-Pi](reefPi.md): Build I2C modules**
+      - next: build sensor module with EC, pH and ADC (ADS1115)
+   - **[DIY EC Sensor](diyec.md): program and test Pico conductivity sensor**
    - **[DIY PWM Dimmer](diyPWMDimmer.md): testing**
       - next: build test circuit
 
