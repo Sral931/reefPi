@@ -221,7 +221,7 @@
 ### Main Pi Circuit
 
 <img src="/circuits/PiUnit_schem.png" title="Filter with medium" width="1200"/>
-- BSS138 Level shifter has to be tested with the DS18B20 and flow meter
+- BSS138 Level shifter works directly with both the DS18B20 temperature sensor and Flow meter
 - 
 
 [back to TOC](#table-of-contents)
