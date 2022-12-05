@@ -10,6 +10,7 @@ Project Parts and Status:
    - **[Reef-Pi](reefPi.md): Build I2C modules**
       - next: build sensor module with EC, pH and ADC (ADS1115)
    - **[DIY EC Sensor](diyec.md): program and test Pico conductivity sensor**
+      - next: design a PCB and order a prototype
    - **[DIY PWM Dimmer](diyPWMDimmer.md): testing**
       - next: build test circuit
 
