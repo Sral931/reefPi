@@ -1,7 +1,10 @@
 # Reef-Pi Page
 
-- **Current Status: Building PI unit**
-  - testing DS18B20 compatibility to BSS138 level shifter
+- **Current Status: Building I2C modules**
+  - programming Raspberry Pi Pico Conductivity Sensor
+  - design a PCB for the Pico Sensor
+  - plan I2C sensor module
+  - plan LED/PWM module
 
 ## Table of contents
 
@@ -285,6 +288,8 @@
     - power and analog connection to ADC
     - internal isolation, both signal and power
 
+[back to TOC](#table-of-contents)
+
 ## Sources
 - [Reef-Pi project page](https://reef-pi.github.io/)
 - Reef-Pi Guides:
@@ -308,3 +313,5 @@
     - [DS1307 I2C RTC module](https://learn.adafruit.com/adding-a-real-time-clock-to-raspberry-pi)
 - Atlas Instruments Guides:
    - [Changing I2C communication mode](https://www.instructables.com/UART-AND-I2C-MODE-SWITCHING-FOR-ATLAS-SCIENTIFIC-E/)
+
+[back to TOC](#table-of-contents)
