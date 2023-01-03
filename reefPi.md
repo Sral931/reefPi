@@ -23,6 +23,8 @@
     11. [Dosing](#dosing)
 3. [Circuits](#circuits)
     1. [Power Supply](#power-supply-circuit)
+    2. [Main Pi Unit](#main-pi-unit-circuit)
+    3. [Doser Unit](#doser-unit-circuit)
 5. [Progress](#progress)
     1. [Progress 12 May 2022](#progress-12-may-2022)
     2. []
@@ -218,7 +220,7 @@
 
 [back to TOC](#table-of-contents)
 
-### Main Pi Circuit
+### Main Pi Unit Circuit
 
 <img src="/circuits/PiUnit_schem.png" title="Main Pi Unit" width="1200"/>
 - BSS138 Level shifter works directly with both the DS18B20 temperature sensor and Flow meter
@@ -226,7 +228,7 @@
 
 [back to TOC](#table-of-contents)
 
-### Doser Circuit
+### Doser Unit Circuit
 
 <img src="/circuits/DosingCircuit_schem.png" title="Dosing Unit" width="1200"/>
 - ULN2801 will actually be used, identical to ULN2803, but without internal input resistance
