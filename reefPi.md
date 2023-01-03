@@ -229,8 +229,9 @@
 ### Doser Circuit
 
 <img src="/circuits/DosingCircuit_schem.png" title="Dosing Unit" width="1200"/>
-- ULN2801 will actually be used
-- includes kickback diodes in IC
+- ULN2801 will actually be used, identical to ULN2803, but without internal input resistance
+- includes kickback diodes in ULN transistor array
+- 4 channels left open for replacement/ extension
 
 [back to TOC](#table-of-contents)
 
