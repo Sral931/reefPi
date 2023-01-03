@@ -213,16 +213,24 @@
 
 ### Power Supply Circuit
 
-<img src="/circuits/PowerUnit_schem.png" title="Filter with medium" width="1200"/>
+<img src="/circuits/PowerUnit_schem.png" title="Power Unit" width="1200"/>
 - only one example Relay is included
 
 [back to TOC](#table-of-contents)
 
 ### Main Pi Circuit
 
-<img src="/circuits/PiUnit_schem.png" title="Filter with medium" width="1200"/>
+<img src="/circuits/PiUnit_schem.png" title="Main Pi Unit" width="1200"/>
 - BSS138 Level shifter works directly with both the DS18B20 temperature sensor and Flow meter
-- 
+- pull-up resistors on AC header are actually unnecessary
+
+[back to TOC](#table-of-contents)
+
+### Doser Circuit
+
+<img src="/circuits/DosingCircuit_schem.png" title="Dosing Unit" width="1200"/>
+- ULN2801 will actually be used
+- includes kickback diodes in IC
 
 [back to TOC](#table-of-contents)
 
